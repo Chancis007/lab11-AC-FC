@@ -1,3 +1,7 @@
+# https://github.com/Chancis007/lab11-AC-FC.git
+# Partner 1: Anna Chandler
+# Partner 2: Francis Chan
+
 """
 calculator.py
 - Defines functions used to create a simple calculator
