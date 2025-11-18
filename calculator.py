@@ -7,7 +7,7 @@ One function per operation, in order.
 # First example
 import math
 
-<<<<<<< HEAD
+
 def square_root(a):
     try:
         return math.sqrt(a)
@@ -16,7 +16,7 @@ def square_root(a):
 
 def hypotenuse(a,b):
     return math.hypot(a,b)
-=======
+
 
 def add(a, b):
     return a + b
@@ -36,9 +36,6 @@ def exp(a, b):
     return a ** b
 
 
-# First example
-import math
->>>>>>> 03db1d046f84087ca1d12c6cbf0d96865757ccca
 
 def subtract(a,b):
     return a-b
