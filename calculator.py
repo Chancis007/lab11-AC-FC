@@ -4,6 +4,7 @@ calculator.py
 
 One function per operation, in order.
 """
+# First example
 import math
 
 
@@ -38,4 +39,26 @@ def exp(a, b):
 
 
 
+# First example
+import math
 
+def add(a, b):
+    return a+b
+
+def subtract(a,b):
+    return a-b
+
+def multiply(a,b):
+    return a*b
+
+def logarithm(a,b):
+
+    if b<=0 or a<=0 or a==1:
+        raise ValueError
+    if b==math.e:
+        return math.log(a)
+    return math.log(a,b)
+print(logarithm(0,5))
+
+def exponent(a,b):
+    return a**b
